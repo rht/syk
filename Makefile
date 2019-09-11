@@ -63,13 +63,13 @@ TEST_OBJS:=\
 	$(OBJ_DIR)/TestUtils.o
 
 CUDA_OBJS:=\
-	$(OBJ_DIR)/CudaUtils.o \
-	$(OBJ_DIR)/CudaState.o \
-	$(OBJ_DIR)/CudaHamiltonian.o \
-	$(OBJ_DIR)/CudaLanczos.o \
-	$(OBJ_DIR)/CudaDeviceUtils.o \
-	$(OBJ_DIR)/CudaMultiGpuHamiltonianNaive.o \
-	$(OBJ_DIR)/CudaMultiGpuHamiltonian.o
+	$(OBJ_DIR)/gpu/CudaUtils.o \
+	$(OBJ_DIR)/gpu/CudaState.o \
+	$(OBJ_DIR)/gpu/CudaHamiltonian.o \
+	$(OBJ_DIR)/gpu/CudaLanczos.o \
+	$(OBJ_DIR)/gpu/CudaDeviceUtils.o \
+	$(OBJ_DIR)/gpu/CudaMultiGpuHamiltonianNaive.o \
+	$(OBJ_DIR)/gpu/CudaMultiGpuHamiltonian.o
 
 BINS:=\
 	test-kitaev \
